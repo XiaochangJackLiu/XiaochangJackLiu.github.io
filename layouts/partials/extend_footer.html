@@ -81,6 +81,16 @@
             postHeader.appendChild(toolbar);
         }
 
+        const postFooter = document.querySelector('.post-footer');
+        if (postFooter && !postFooter.querySelector('.post-back-to-top')) {
+            const backToTop = document.createElement('a');
+            backToTop.className = 'post-back-to-top';
+            backToTop.href = '#top';
+            backToTop.textContent = 'Back to top';
+            backToTop.setAttribute('aria-label', 'Back to top');
+            postFooter.appendChild(backToTop);
+        }
+
         const resetReadButton = () => {
             readButton.textContent = 'Read aloud';
             readButton.removeAttribute('aria-pressed');
