@@ -1,0 +1,47 @@
+.post-ai-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.post-ai-tool {
+    padding: 4px 10px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--secondary);
+    background: var(--code-bg);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.post-ai-tool:hover:not(:disabled) {
+    color: var(--primary);
+    background: var(--border);
+}
+
+.post-ai-tool:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+}
+
+.post-ai-speed {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 34px;
+    color: var(--secondary);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.post-ai-speed-input {
+    width: 92px;
+    accent-color: var(--secondary);
+}
+
+.post-ai-speed-output {
+    min-width: 34px;
+    color: var(--secondary);
+    font-size: 13px;
+}

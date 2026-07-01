@@ -1,0 +1,49 @@
+baseURL = "https://xiaochangjackliu.github.io/"
+locale = "en-US"
+title = "Xiaochang (Jack) Liu"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Xiaochang (Jack) Liu"
+description = "Trying to cook agents, and writing down what I learn."
+keywords = ["AI agents", "software engineering", "agent engineering", "coding agents"]
+author = "Xiaochang (Jack) Liu"
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = false
+UseHugoToc = true
+comments = true
+
+[params.homeInfoParams]
+Title = "Hi, I'm Xiaochang (Jack) Liu"
+Content = "Trying to cook agents, and writing down what I learn."
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/xiaochang-liu-573435180/"
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[markup]
+[markup.highlight]
+noClasses = false
