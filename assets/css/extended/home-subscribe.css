@@ -1,0 +1,26 @@
+.home-subscribe {
+    margin-top: 14px;
+}
+
+.home-subscribe-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: var(--radius);
+    color: var(--theme);
+    background: var(--primary);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    transition: opacity 0.15s ease, transform 0.1s ease;
+}
+
+.home-subscribe-button:hover {
+    color: var(--theme);
+    opacity: 0.85;
+}
+
+.home-subscribe-button:active {
+    transform: scale(0.98);
+}
