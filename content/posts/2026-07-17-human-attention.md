@@ -1,7 +1,7 @@
 ---
 title: "The Most Expensive Tool Call: Human Attention"
 description: "A human-as-a-tool perspective on when agents need human information, action, judgment, or authority—and how to design that interaction without treating attention as free."
-date: 2026-07-17T10:00:00+08:00
+date: 2026-07-17T11:00:00+08:00
 draft: false
 tags:
   - AI agents
